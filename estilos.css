@@ -1,0 +1,326 @@
+.main{
+  /*background-image: url(./images/fondo.png);
+    */
+  display: flex;
+	flex-flow: column nowrap;
+}
+
+.mat-card {
+  border-radius: 32px;
+  margin: 10px 10px;
+  padding: 20px;
+  border-color: #0a66c2;
+  
+
+}
+.banner{
+  display: flex;
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	flex-flow: column nowrap;
+
+}
+.mat-card#first-card{
+  /*background: url(../imagenes/fondo4.jpg);*/
+		
+  
+  padding:0;
+  display: flex;
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	flex-flow: column nowrap;
+
+}
+div#profile-background{
+  display:flex;
+  z-index: auto;
+  background: opacity 0.9;
+  
+  
+}
+div#profile-background img{
+  
+  display: flex;
+	background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+	flex-flow: column nowrap;
+  width: 100%;
+  height:320px;
+  border-radius: 32px 32px 0 0;
+  margin-top:-100px;
+  
+  
+}
+.profile-image {
+  border-radius: 50%;
+  width: 152px;
+  height: 152px;
+  margin-top:-110px;
+  z-index: auto;
+}
+div#info-actions {
+  display: flex;
+}
+
+
+div#info-data ul#info-details li a{
+  color:black;
+  display:flex;
+  text-decoration: none;
+}
+div#info-data ul#info-details li a h2{
+  font-size: 1rem;
+  font-weight: 500;
+  align-self: center;
+  vertical-align: baseline;
+  
+}
+div#info-data ul#info-details li a img{
+  height: 64px;
+  width: 64px;
+  margin: right 8px;
+  
+}
+ul.item-list{
+  list-style: none inside;
+}
+ul#info-experiencia li a h2{
+  font-size: 1.2rem;
+  font-weight: 500;
+  align-self: center;
+  vertical-align: baseline;
+  
+} 
+ul#info-experiencia li a img{
+  height: 64px;
+  width: 64px;
+  margin: right 8px;
+  
+}
+ul#info-experiencia li a{
+  color:black;
+  display:flex;
+  text-decoration: none;
+}
+ul#info-experiencia li p{
+  color:black;
+  display:flex;
+  text-decoration: none;
+}
+:root{
+  --color-red:#d75959;
+  --color-yellow:#f5c463;
+  --color-green:#9ccd7e;
+  --color-blue: #5ca7db;
+  --rgb-black:0,0,0;
+}
+
+.wrapper{
+  margin-top: 10px;
+  /*background-image:  url(/images/pared_Skills2.jpg);*/
+
+  
+}
+
+.progressbar:not svg,
+.progressbar:not(.circle) svg path{
+  border-radius: 20px;
+}
+
+.progressbar svg path:first-child{
+  stroke: rgba(var(--rgb-black), 0.09);
+}
+
+
+
+.progressbar.border{
+ border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+
+.progressbar.border svg path:first-child{
+  stroke: transparent;
+}
+
+
+.progressbar.line svg{
+  height: 10px;
+}
+
+
+.progressbar.line.border svg{
+  height: 8px;
+}
+
+
+
+
+.progressbar.circle{
+  position: relative;
+  margin: 0 auto 30px;
+  width: 170px;
+  height: 85px;
+}
+
+
+.progressbar.circle .progressbar-text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-size: 40px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: slateblue !important;
+  font-weight: bold;
+}
+
+.progressbar.circle .progressbar-text:after{
+  content: "%";
+  display: block;
+  font-size: 20px;
+  padding-left: 2px;
+}
+
+
+.progressbar.red svg path:last-child{
+  stroke: var(--color-red)
+  
+}
+
+
+
+.progressbar.blue svg path:last-child{
+  stroke: var(--color-blue)
+  
+}
+
+
+
+.progressbar.green svg path:last-child{
+  stroke: var(--color-green)
+  
+}
+
+
+.progressbar.yellow svg path:last-child{
+  stroke: var(--color-yellow)
+  
+}
+
+h5{
+  background: transparent;
+  padding: 10px;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 50px;
+  border: 2px solid blue;
+  font-size: 17px;
+  color: black;
+}
+
+p{
+  margin-top: 25px;
+}
+.main {
+    
+}
+.menu{
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: stretch;
+  background: rgba(79, 52, 133, 0.9);
+	display: flex;
+	flex-flow:row nowrap;
+	height: 80px;
+	align-items: center;
+	border-radius: 32px;
+	/*border-bottom: 1px solid rgba(255,255,255,.1);*/
+  z-index: 1;
+  
+    
+}
+  
+
+
+.logo {
+  background: transparent;
+  padding: 2px;
+  width: 15%;
+  margin: 0 auto;
+  font-size: 17px;
+  color: purple;
+  text-align: center;
+  flex: 3 1 left;
+  margin-top:0px;
+  color:black;
+} 
+  .logo a{
+    color:black;
+    text-decoration: none;
+  }
+
+
+.relleno {
+  background: transparent;
+  padding: 1px;
+  width: 7%;
+  margin: 0 auto;
+  font-size: 17px;
+  text-align: center;
+  flex: 8 1 auto;
+}
+
+.social {
+  background: transparent;
+  padding: 0px;
+  width: 8%;
+  margin: 1px;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 0px;
+  
+  
+  
+}
+.login {
+  background: transparent;
+  padding: 1px;
+  margin: 1px;
+  width: 7%;
+  border-radius: 32px 32px 32px 32px ;
+  border: 2px solid black;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 0px;
+  
+}
+.login a{
+  color:black;
+  text-decoration: none;
+
+}
+.icono-social{
+  color: black;
+  height: px;
+  width: px;
+  padding:5px;
+}
+.acerca{
+  height:50px;
+}
+
+
+/*---------------------*/
+
+
+
+
